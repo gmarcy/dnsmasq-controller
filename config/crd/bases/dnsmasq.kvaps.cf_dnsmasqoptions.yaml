@@ -90,6 +90,25 @@ spec:
                       - dns-rr
                       - auth-zone
                       - synth-domain
+                      - address
+                      - bogus-nxdomain
+                      - cache-size
+                      - dhcp-leasefile
+                      - dhcp-lease-max
+                      - dhcp-script
+                      - except-interface
+                      - group
+                      - interface
+                      - ipset
+                      - listen-address
+                      - local-ttl
+                      - mx-target
+                      - no-dhcp-interface
+                      - port
+                      - pxe-prompt
+                      - resolv-file
+                      - tftp-root
+                      - user
                       type: string
                     values:
                       items:
